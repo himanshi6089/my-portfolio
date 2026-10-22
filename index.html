@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himanshi Sharma · Quantum Computing & Research Engineer</title>
+<meta name="description" content="Himanshi Sharma, Senior Research Engineer and IBM Certified Quantum Developer. Quantum and hybrid optimization for manufacturing and insurance, IBM Quantum hardware, D-Wave, Qiskit, OR-Tools. NQCC collaboration.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#fff;--ink:#1b1d22;--muted:#626875;--line:#dfe2e8;--soft:#f4f6f9;--a:#1f3a5f;--serif:"Source Serif 4",Georgia,serif;--sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:var(--a);color:#fff}
+a{color:var(--a);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--a) 30%,transparent)}a:hover{border-color:var(--a)}
+a:focus-visible{outline:2px solid var(--a);outline-offset:3px}
+.w{max-width:960px;margin:0 auto;padding:0 26px}
+nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;gap:26px;align-items:center;height:58px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+nav b{font:400 20px var(--serif);margin-right:auto}nav a{color:var(--muted);font-size:14px;border:0}nav a:hover{color:var(--ink)}
+.hero{padding:76px 0 56px}
+.meta{font-size:14.5px;color:var(--muted);margin:0 0 18px}
+h1{font:300 clamp(42px,7vw,68px)/1.05 var(--serif);letter-spacing:-.015em;margin:0 0 10px}
+.title{font:400 clamp(20px,3vw,26px)/1.3 var(--serif);color:var(--a);margin:0 0 22px}
+.intro{font-size:18px;line-height:1.6;color:var(--muted);margin:0 0 26px;max-width:36em}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none}
+.chips li{font-size:13.5px;font-weight:500;padding:5px 13px;border:1px solid var(--line);border-radius:99px;background:var(--soft)}
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 20px;border:1px solid var(--a);border-radius:5px;font:500 15px var(--sans);color:var(--a)}
+.btn.p{background:var(--a);color:#fff}.btn:hover{opacity:.88}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:300 clamp(28px,4vw,36px)/1.15 var(--serif);margin:0 0 26px;letter-spacing:-.01em}
+.nq{background:var(--soft);border-top:2px solid var(--a);padding:26px 30px;margin:0 0 56px}
+.nq .k{font-size:13.5px;color:var(--a);font-weight:600;margin:0 0 4px}
+.nq h3{font:400 24px/1.25 var(--serif);margin:0 0 10px}
+.nq p{margin:0 0 10px;max-width:46em}
+.flow{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin:12px 0;font-size:14.5px;font-weight:500}.flow i{font-style:normal;color:var(--muted);font-weight:400}
+.flow span{background:#fff;border:1px solid var(--line);padding:3px 12px}
+.job{display:grid;grid-template-columns:190px 1fr;gap:6px 36px;padding:0 0 30px}
+.job .d{color:var(--muted);font-size:14.5px}
+.job h3{font:600 17px/1.4 var(--sans);margin:0}.job .o{color:var(--muted);margin:0 0 10px}
+.job ul{margin:0;padding-left:18px}.job li{margin:0 0 6px}
+.cards{display:grid;gap:20px}
+.card{border:1px solid var(--line);padding:22px 24px;border-radius:2px}
+.card h3{font:400 23px/1.3 var(--serif);margin:0 0 6px}
+.card .t{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.card .t span{font-size:12.5px;font-weight:500;color:var(--a);border:1px solid color-mix(in srgb,var(--a) 35%,var(--line));padding:1px 10px;border-radius:99px}
+.card p{margin:0 0 6px}.card b{font-weight:600}
+.card .s{color:var(--muted);font-size:14.5px;margin-top:10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px}
+.sk{display:grid;gap:0}
+.sk div{display:grid;grid-template-columns:210px 1fr;gap:6px 28px;padding:14px 0;border-top:1px solid var(--line)}
+.sk div:first-child{border-top:0;padding-top:0}
+.sk dt{font-weight:600;font-size:14.5px}.sk dd{margin:0;color:var(--muted);font-size:14.5px;line-height:1.7}
+.ec{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.ec h3{font:400 22px var(--serif);margin:0 0 10px}.ec p{margin:0 0 8px}.ec .m{color:var(--muted);font-size:14.5px}
+@media(max-width:760px){.job,.sk div{grid-template-columns:1fr}.job{gap:2px}.two,.ec{grid-template-columns:1fr;gap:24px}.hero{padding:52px 0 40px}.nq{padding:22px 20px}}
+footer{padding:26px 0 54px;color:var(--muted);font-size:13.5px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav><div class="w"><b>Himanshi Sharma</b><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero"><div class="w">
+  <p class="meta">Noida, India</p>
+  <h1>Himanshi Sharma</h1>
+  <p class="title">Quantum Computing & Research Engineer</p>
+  <p class="intro">Senior Research Engineer with 3+ years in near-term quantum computing. I take real client problems from raw data to a working solver, and make them run on quantum hardware, simulators and annealers.</p>
+  <ul class="chips"><li>IBM Certified Quantum Developer</li><li>3 client projects on real data</li><li>NQCC (UK) collaboration</li><li>Springer publication</li></ul>
+  <div class="links"><a class="btn p" href="mailto:himanshi6089@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/himanshi-sharma-a9947a18a">LinkedIn</a></div>
+</div></header>
+
+<div class="w"><div class="nq">
+  <p class="k">Research collaboration · SparQ program</p>
+  <h3>National Quantum Computing Centre, UK</h3>
+  <p>Worked with NQCC researchers, physicists and engineers on high-throughput industrial scheduling for near-term quantum hardware. We built a dynamic flexible job shop scheduling framework:</p>
+  <div class="flow"><span>Data generation</span><i>→</i><span>Constraint model</span><i>→</i><span>Google OR-Tools</span><i>+</i><span>D-Wave quantum annealing</span></div>
+  <p style="margin:0">I presented the methodology, implementation decisions and benchmarking findings to a multidisciplinary audience.</p>
+</div></div>
+
+<section id="experience" style="border-top:0;padding-top:0"><div class="w">
+  <h2>Experience</h2>
+  <div class="job"><div class="d">Jul 2023 – Present<br>Noida, India</div><div>
+    <h3>Senior Research Engineer</h3><p class="o">LTIMindtree</p>
+    <ul>
+      <li>Delivered optimization projects for manufacturing and insurance clients, from data and modelling to solving and benchmarking.</li>
+      <li>Ran and analyzed experiments on IBM Quantum hardware, with hardware-aware transpilation and error mitigation.</li>
+      <li>Benchmarked quantum and hybrid methods against Google OR-Tools as the classical reference.</li>
+      <li>Gave talks and guided researchers and engineers on backend selection, transpilation and benchmarking.</li>
+    </ul></div></div>
+  <div class="job" style="padding-bottom:0"><div class="d">May 2021 – Aug 2021<br>Delhi, India</div><div>
+    <h3>Research Intern</h3><p class="o">NIT Delhi</p>
+    <ul><li>Supported research in optimization and computational methods: problem formulation, implementation and experimental analysis.</li></ul></div></div>
+</div></section>
+
+<section id="projects"><div class="w">
+  <h2>Projects</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>What-if engine for manufacturing</h3>
+      <div class="t"><span>Manufacturing client</span><span>Live data</span><span>Owned end to end</span></div>
+      <p><b>Problem.</b> Planners could not see how one decision would change the deadlines of every other project.</p>
+      <p><b>Built.</b> A scenario analysis tool that simulates a decision across all projects at once, on datasets of 25K+ operations. I designed, built and delivered it.</p>
+      <p class="s">Python · discrete-event simulation · automated testing · CI/CD</p>
+    </article>
+    <article class="card">
+      <h3>Dynamic flexible job shop scheduling</h3>
+      <div class="t"><span>Manufacturing client</span><span>Real data</span></div>
+      <p><b>Problem.</b> Projects of ordered jobs share machines and new projects keep arriving. The goal is the shortest overall makespan.</p>
+      <p><b>Built.</b> A framework from client data, to constraint modelling, to solving with Google OR-Tools and D-Wave quantum annealing, with OR-Tools as the classical reference.</p>
+      <p class="s">QUBO · CP-SAT · D-Wave Ocean SDK · Google OR-Tools</p>
+    </article>
+    <article class="card">
+      <h3>Insurance claim assignment</h3>
+      <div class="t"><span>Insurance client</span><span>Real data</span></div>
+      <p><b>Problem.</b> Assign each incoming claim to the right handler within geographic and business constraints.</p>
+      <p><b>Built.</b> A constraint-based QUBO model and variational quantum algorithms, benchmarked against Google OR-Tools on solution quality, convergence, circuit resources and noise sensitivity.</p>
+      <p class="s">QUBO · VQA · parameterized circuits · Qiskit · Google OR-Tools</p>
+    </article>
+  </div>
+  <div class="two">
+    <article class="card">
+      <h3>Large QUBOs on few qubits</h3>
+      <div class="t"><span>Research</span></div>
+      <p>Pauli Correlation Encoding compresses QUBOs with millions of non-zero entries onto far fewer qubits, on IBM hardware and simulators.</p>
+    </article>
+    <article class="card">
+      <h3>Running on IBM Quantum</h3>
+      <div class="t"><span>Research</span></div>
+      <p>Hardware-aware transpilation, Runtime execution with Sampler and Estimator, and readout mitigation, dynamical decoupling and Pauli twirling.</p>
+    </article>
+  </div>
+</div></section>
+
+<section id="skills"><div class="w">
+  <h2>Skills</h2>
+  <dl class="sk" style="margin:0">
+    <div><dt>Quantum algorithms</dt><dd>VQA, VQE, Parameterized Quantum Circuits (PQC), Pauli Correlation Encoding, Pauli Operators and Observables, Hybrid Quantum–Classical Optimization, Max-Cut, TSP, Combinatorial and Constrained Optimization</dd></div>
+    <div><dt>Quantum hardware</dt><dd>NISQ Hardware Execution, Hardware-Aware Transpilation, Qubit Mapping and Routing, Coupling Maps, Native Gate Decomposition, Calibration Analysis, Gate Error and Fidelity Analysis, Noise Characterization, Randomized Benchmarking</dd></div>
+    <div><dt>Error suppression and mitigation</dt><dd>Measurement and Readout Error Mitigation, Dynamical Decoupling, Pauli Twirling, Noise-Aware Circuit Execution, Runtime Resilience Workflows</dd></div>
+    <div><dt>Platforms and SDKs</dt><dd>Qiskit, IBM Quantum Runtime, Sampler and Estimator Primitives, Runtime Sessions and Batch Execution, PassManager, BackendV2, Target, D-Wave Ocean SDK, Azure Quantum, PennyLane, Cirq</dd></div>
+    <div><dt>Optimization</dt><dd>QUBO, Quantum Annealing, CP-SAT, Integer Programming, Google OR-Tools, Pyomo, Gurobi, Classical Optimizer Integration, Batched Quantum Workloads, Parallel Experiment Evaluation, Industrial Scheduling</dd></div>
+    <div><dt>Programming and engineering</dt><dd>Python, C++, NumPy, SciPy, Pandas, NetworkX, Git, Docker, Linux, Unit Testing, CI/CD, API Integration, Modular Software Architecture, AWS, GCP</dd></div>
+  </dl>
+</div></section>
+
+<section id="education"><div class="w">
+  <h2>Education and credentials</h2>
+  <div class="ec">
+    <div><h3>Education</h3>
+      <p>M.Tech, Computer Science<br><span class="m">Indian Institute of Technology (IIT) Jodhpur, 2021–2023</span></p>
+      <p>B.Tech, Computer Science<br><span class="m">Guru Gobind Singh Indraprastha University (GGSIPU), 2017–2021</span></p>
+      <h3 style="margin-top:26px">Publication</h3>
+      <p>Leveraging Chaos for Enhancing Encryption and Compression.<br><span class="m"><i>Journal of Supercomputing</i>, Springer, 2024</span></p></div>
+    <div><h3>Certifications</h3>
+      <p>IBM Certified Associate Developer, Quantum Computation using Qiskit</p>
+      <p>IBM Quantum Challenge 2024</p>
+      <p>IBM Qiskit Global Summer School 2026</p>
+      <p>Hands-on Quantum Error Correction with Google Quantum AI (Coursera)</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="w">
+  <h2>Contact</h2>
+  <div class="links"><a class="btn p" href="mailto:himanshi6089@gmail.com">himanshi6089@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/himanshi-sharma-a9947a18a">LinkedIn</a></div>
+</div></section>
+<footer><div class="w">© 2026 Himanshi Sharma</div></footer>
+</body>
+</html>
